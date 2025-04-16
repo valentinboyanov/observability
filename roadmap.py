@@ -44,6 +44,7 @@ proj = Proj(
             "basic_concepts_learned",
             ["@valentyinboyanov"],
             "@valentyinboyanov has learned the fundamental ideas: monitoring (metrics, logs, traces) and observability (understanding system behavior).",
+            ["current_level_assessed"],
         ),
         N(
             "scope_defined",

@@ -16,5 +16,6 @@ min_working_solution -> production_deploy;
 research_done -> min_working_solution;
 scope_defined -> research_done;
 basic_concepts_learned -> research_done;
+current_level_assessed -> basic_concepts_learned;
 current_level_assessed -> scope_defined;
 }
