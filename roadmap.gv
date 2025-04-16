@@ -1,0 +1,20 @@
+digraph {rankdir="TB";
+
+valentin_is_better_at_infra[tooltip="@valentinboyanov has a better understanding of his level in infrastructure and is more confident in what he knows and can do."];
+observability_solution_ready[tooltip="The observatility solution is ready to be used by a small product team in production environment."];
+ivan_approved[tooltip="@igarridot has reviewed and confirmed that the solution is suitable for the purpose of this learning exercise."];
+production_deploy[tooltip="The solution can be deployed on production environment."];
+min_working_solution[tooltip="A minimal working solution using the selected tools can be run locally."];
+research_done[tooltip="Research on the state of the art in observability is complete."];
+basic_concepts_learned[tooltip="@valentyinboyanov has learned the fundamental ideas: monitoring (metrics, logs, traces) and observability (understanding system behavior)."];
+scope_defined[tooltip="We have explicitly defined the expected usage, limitations, and what constitutes a 'small' product team."];
+current_level_assessed[tooltip="@valentyinboyanov's current level at infra is assessed using the 'knowledge ladder' framework."];
+observability_solution_ready -> valentin_is_better_at_infra;
+ivan_approved -> observability_solution_ready;
+production_deploy -> observability_solution_ready;
+min_working_solution -> production_deploy;
+research_done -> min_working_solution;
+scope_defined -> research_done;
+basic_concepts_learned -> research_done;
+current_level_assessed -> scope_defined;
+}
